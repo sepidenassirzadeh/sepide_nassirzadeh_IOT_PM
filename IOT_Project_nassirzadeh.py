@@ -1,6 +1,7 @@
 '''task 1'''
 #topic=location,group,device,name
 #import RPi.GPIO as GPIO
+#import paho.mqtt.client as mqtt
 class device:
     def __init__(self,topic,mqtt_broker='localhost',port=1338):
         self.topic=topic
