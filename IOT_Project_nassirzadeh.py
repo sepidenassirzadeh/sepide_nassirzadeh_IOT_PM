@@ -20,6 +20,7 @@ class device:
         self.group=self.topic_list[1]
         self.device=self.topic_list[2]
         self.name=self.topic_list[3]
+        self.pin=pin
         
         self.mqtt_broker=mqtt_broker
         self.port=port
